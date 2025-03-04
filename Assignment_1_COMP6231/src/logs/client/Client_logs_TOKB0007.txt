@@ -1,0 +1,15 @@
+DATE: 2025-03-03 06:43:53 PM |  login attempted
+DATE: 2025-03-03 06:43:53 PM |  Buyer Login successful
+DATE: 2025-03-03 06:43:56 PM |  attempting to getShares
+DATE: 2025-03-03 06:43:57 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: No shares found for buyer TOKB0007
+DATE: 2025-03-03 06:44:18 PM |  attempting to purchaseShare
+DATE: 2025-03-03 06:44:18 PM | Client Action:  purchaseShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus shareCount: 4  | Server Response: Failed: TOKB0007 can not buy more than 3 shares from other cities in total per week.
+DATE: 2025-03-03 06:44:20 PM |  attempting to getShares
+DATE: 2025-03-03 06:44:20 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: No shares found for buyer TOKB0007
+DATE: 2025-03-03 06:44:30 PM |  attempting to purchaseShare
+DATE: 2025-03-03 06:44:30 PM | Client Action:  purchaseShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus shareCount: 3  | Server Response: Success: TOKB0007 purchased 3 of share NYKM101022;
+DATE: 2025-03-03 06:44:32 PM |  attempting to getShares
+DATE: 2025-03-03 06:44:32 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for TOKB0007:
+Type [Bonus]:
+	NYKM101022	count: 3
+

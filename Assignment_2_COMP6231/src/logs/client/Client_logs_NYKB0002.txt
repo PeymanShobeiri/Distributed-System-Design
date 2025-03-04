@@ -1,0 +1,28 @@
+DATE: 2025-03-03 08:47:48 PM |  attempting to purchaseShare
+DATE: 2025-03-03 08:47:48 PM | Client Action:  purchaseShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus shareCount: 3  | Server Response: Success: NYKB0002 purchased 3 of share NYKM101022
+DATE: 2025-03-03 08:48:20 PM | Client Action: swapShare | RequestParameters: NYKM101022=>TOKM010122 | Server Response: Failed: NYKB0002 does not own share TOKM010122
+DATE: 2025-03-03 09:01:01 PM |  attempting to purchaseShare
+DATE: 2025-03-03 09:01:01 PM | Client Action:  purchaseShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus shareCount: 3  | Server Response: Success: NYKB0002 purchased 3 of share NYKM101022
+DATE: 2025-03-03 09:01:20 PM | Client Action: swapShare | RequestParameters: NYKM101022=>TOKM111122 | Server Response: Success: NYKB0002 swapped old share NYKM101022 with new share TOKM111122 for quantity=3
+DATE: 2025-03-03 09:06:11 PM |  attempting to purchaseShare
+DATE: 2025-03-03 09:06:11 PM | Client Action:  purchaseShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus shareCount: 5  | Server Response: Success: NYKB0002 purchased 5 of share NYKM101022
+DATE: 2025-03-03 09:06:13 PM |  attempting to getShares
+DATE: 2025-03-03 09:06:13 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0002:
+Type [Bonus]:
+	NYKM101022	count: 5
+
+DATE: 2025-03-03 09:06:50 PM | Client Action: swapShare | RequestParameters: NYKM101022=>TOKM111122 | Server Response: Success: NYKB0002 swapped old share NYKM101022 with new share TOKM111122 for quantity=5
+DATE: 2025-03-03 09:06:57 PM |  attempting to getShares
+DATE: 2025-03-03 09:06:57 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0002:
+Type [Bonus]:
+
+DATE: 2025-03-03 09:10:09 PM |  attempting to getShares
+DATE: 2025-03-03 09:10:09 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0002:
+Type [Bonus]:
+
+DATE: 2025-03-03 09:10:26 PM |  attempting to sellShare
+DATE: 2025-03-03 09:10:26 PM | Client Action:  sellShare | RequestParameters:  shareID: TOKM111122 shareCount: 2  | Server Response: Success: NYKB0002 sold 2 of share TOKM111122;
+DATE: 2025-03-03 09:10:36 PM |  attempting to getShares
+DATE: 2025-03-03 09:10:36 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0002:
+Type [Bonus]:
+

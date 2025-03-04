@@ -1,0 +1,32 @@
+DATE: 2025-02-16 10:45:00 AM |  login attempted
+DATE: 2025-02-16 10:45:00 AM |  Admin Login successful
+DATE: 2025-02-16 10:45:12 AM |  attempting to listShareAvailability
+DATE: 2025-02-16 10:45:12 AM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: NEWYORK [Bonus]:
+[ShareID=NYKA121225, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+DATE: 2025-02-16 10:46:14 AM |  attempting to listShareAvailability
+DATE: 2025-02-16 10:46:14 AM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: NEWYORK [Bonus]:
+[ShareID=NYKA121225, Type=Bonus, Capacity=10, Purchased=5, Remaining=5] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+DATE: 2025-02-16 10:46:54 AM |  attempting to listShareAvailability
+DATE: 2025-02-16 10:46:54 AM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: NEWYORK [Bonus]:
+[ShareID=NYKA121225, Type=Bonus, Capacity=10, Purchased=1, Remaining=9] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+

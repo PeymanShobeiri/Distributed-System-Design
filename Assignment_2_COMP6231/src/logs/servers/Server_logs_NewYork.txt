@@ -1,0 +1,458 @@
+[Server]: DATE: 2025-02-12 11:09:53 PM | NEWYORK Server is Up & Running
+[Server]: DATE: 2025-02-12 11:09:53 PM | UDP Server Started at port 8001
+[Server]: DATE: 2025-02-16 10:34:02 AM | NEWYORK Server is Up & Running
+[Server]: DATE: 2025-02-16 10:34:02 AM | UDP Server Started at port 8001
+[Server]: DATE: 2025-02-16 10:35:02 AM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=NYKA121225, shareType=Bonus, capacity=10 | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:35:02 AM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=NYKA121225, shareType=Bonus | ServerResponse: Success: share NYKA121225 added with capacity=10
+[Server]: DATE: 2025-02-16 10:35:27 AM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=NYKM111025, shareType=Dividend, capacity=8 | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:35:27 AM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=NYKM111025, shareType=Dividend | ServerResponse: Success: share NYKM111025 added with capacity=8
+[Server]: DATE: 2025-02-16 10:45:12 AM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:45:12 AM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:45:12 AM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+
+[Server]: DATE: 2025-02-16 10:45:12 AM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:45:12 AM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+[Server]: DATE: 2025-02-16 10:45:12 AM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKA121225, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+[Server]: DATE: 2025-02-16 10:45:37 AM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:45:37 AM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: No shares found for buyer NYKB0001
+[Server]: DATE: 2025-02-16 10:45:59 AM | ClientID: NYKB0001 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKA121225, shareType=Bonus, shareCount=5 | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:45:59 AM | ClientID: NYKB0001 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKA121225, shareType=Bonus | ServerResponse: Success: NYKB0001 purchased 5 of share NYKA121225
+[Server]: DATE: 2025-02-16 10:46:02 AM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:46:02 AM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0001:
+Type [Bonus]:
+	NYKA121225	count: 5
+
+[Server]: DATE: 2025-02-16 10:46:14 AM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:46:14 AM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:46:14 AM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+
+[Server]: DATE: 2025-02-16 10:46:14 AM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:46:14 AM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+[Server]: DATE: 2025-02-16 10:46:14 AM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKA121225, Type=Bonus, Capacity=10, Purchased=5, Remaining=5] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+[Server]: DATE: 2025-02-16 10:46:46 AM | ClientID: NYKB0001 | RequestType: RMI sellShare | RequestParameters: shareID=NYKA121225, shareCount=4 | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:46:46 AM | ClientID: NYKB0001 | RequestType: RMI sellShare | RequestParameters: shareID=NYKA121225, shareType=Bonus | ServerResponse: Success: NYKB0001 sold 4 of share NYKA121225
+[Server]: DATE: 2025-02-16 10:46:49 AM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:46:49 AM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0001:
+Type [Bonus]:
+	NYKA121225	count: 1
+
+[Server]: DATE: 2025-02-16 10:46:54 AM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:46:54 AM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:46:54 AM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+
+[Server]: DATE: 2025-02-16 10:46:54 AM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:46:54 AM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+[Server]: DATE: 2025-02-16 10:46:54 AM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKA121225, Type=Bonus, Capacity=10, Purchased=1, Remaining=9] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+[Server]: DATE: 2025-03-03 02:36:20 PM | Exception: 
+[Server]: DATE: 2025-03-03 02:36:20 PM | Server Shutting down
+[Server]: DATE: 2025-03-03 02:39:27 PM | Exception: 
+[Server]: DATE: 2025-03-03 02:39:27 PM | Server Shutting down
+[Server]: DATE: 2025-03-03 02:41:41 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 02:41:41 PM | UDP Server started at port 8888
+[Server]: DATE: 2025-03-03 04:03:41 PM |  Server is Up & Running
+[Server]: DATE: 2025-03-03 04:05:46 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: CORBA addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, val=5 | ServerResponse: Success: share NYKM101022 added with capacity=5
+[Server]: DATE: 2025-03-03 04:05:49 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: ...
+[Server]: DATE: 2025-03-03 04:14:47 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 04:14:47 PM | UDP Server started at port 8888
+[Server]: DATE: 2025-03-03 04:15:18 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: ...
+[Server]: DATE: 2025-03-03 04:15:18 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+=====================================
+;
+[Server]: DATE: 2025-03-03 04:15:18 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: ...
+[Server]: DATE: 2025-03-03 04:15:18 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: TOKYO [Bonus]:
+No shares of type Bonus
+=====================================
+;
+[Server]: DATE: 2025-03-03 04:15:18 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: CORBA listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus, val=0 | ServerResponse: NEWYORK [Bonus]:
+No shares of type Bonus
+LONDON [Bonus]:
+No shares of type Bonus
+=====================================
+;TOKYO [Bonus]:
+No shares of type Bonus
+=====================================
+;
+[Server]: DATE: 2025-03-03 04:15:37 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: CORBA addShare | RequestParameters: shareID=NYKN101022, shareType=Bonus, val=5 | ServerResponse: Success: share NYKN101022 added with capacity=5
+[Server]: DATE: 2025-03-03 04:15:43 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: ...
+[Server]: DATE: 2025-03-03 04:15:43 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+=====================================
+;
+[Server]: DATE: 2025-03-03 04:15:43 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: ...
+[Server]: DATE: 2025-03-03 04:15:43 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: TOKYO [Bonus]:
+No shares of type Bonus
+=====================================
+;
+[Server]: DATE: 2025-03-03 04:15:43 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: CORBA listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus, val=0 | ServerResponse: NEWYORK [Bonus]:
+(ShareID=NYKN101022, Type=Bonus, Capacity=5, Owned=0, Remaining=5) || 
+LONDON [Bonus]:
+No shares of type Bonus
+=====================================
+;TOKYO [Bonus]:
+No shares of type Bonus
+=====================================
+;
+[Server]: DATE: 2025-03-03 04:52:09 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 04:52:09 PM | UDP Server started at port 8888
+[Server]: DATE: 2025-03-03 05:22:59 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 05:22:59 PM | UDP Server started at port 8888
+[Server]: DATE: 2025-03-03 05:23:29 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: CORBA addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, val=10 | ServerResponse: Success: share NYKM101022 added with capacity=10
+[Server]: DATE: 2025-03-03 05:24:07 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: CORBA addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, val=10 | ServerResponse: Success: share NYKM101022 capacity increased to 10
+[Server]: DATE: 2025-03-03 05:24:16 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: CORBA addShare | RequestParameters: shareID=TOKM101022, shareType=Bonus, val=5 | ServerResponse: Failed: cannot add share TOKM101022 to a different server: NEWYORK
+[Server]: DATE: 2025-03-03 05:25:35 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: ...
+[Server]: DATE: 2025-03-03 05:25:35 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+=====================================
+;
+[Server]: DATE: 2025-03-03 05:25:35 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: ...
+[Server]: DATE: 2025-03-03 05:25:35 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: TOKYO [Bonus]:
+(ShareID=TOKM101022, Type=Bonus, Capacity=8, Owned=0, Remaining=8) || 
+=====================================
+;
+[Server]: DATE: 2025-03-03 05:25:35 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: CORBA listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus, val=0 | ServerResponse: NEWYORK [Bonus]:
+(ShareID=NYKM101022, Type=Bonus, Capacity=10, Owned=0, Remaining=10) || 
+LONDON [Bonus]:
+No shares of type Bonus
+=====================================
+;TOKYO [Bonus]:
+(ShareID=TOKM101022, Type=Bonus, Capacity=8, Owned=0, Remaining=8) || 
+=====================================
+;
+[Server]: DATE: 2025-03-03 05:26:57 PM | ClientID: NYKB0007 | RequestType: CORBA purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, val=5 | ServerResponse: Success: NYKB0007 purchased 5 of share NYKM101022
+[Server]: DATE: 2025-03-03 05:26:59 PM | ClientID: NYKB0007 | RequestType: CORBA getShares | RequestParameters: shareID=N/A, shareType=N/A, val=0 | ServerResponse: Shares for NYKB0007:
+Type [Bonus]:
+   NYKM101022  count: 5
+
+[Server]: DATE: 2025-03-03 05:27:04 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: ...
+[Server]: DATE: 2025-03-03 05:27:04 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+=====================================
+;
+[Server]: DATE: 2025-03-03 05:27:04 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: ...
+[Server]: DATE: 2025-03-03 05:27:04 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=null | ServerResponse: TOKYO [Bonus]:
+(ShareID=TOKM101022, Type=Bonus, Capacity=8, Owned=0, Remaining=8) || 
+=====================================
+;
+[Server]: DATE: 2025-03-03 05:27:04 PM | ClientID: ADMIN_OR_UNKNOWN | RequestType: CORBA listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus, val=0 | ServerResponse: NEWYORK [Bonus]:
+(ShareID=NYKM101022, Type=Bonus, Capacity=10, Owned=1, Remaining=9) || 
+LONDON [Bonus]:
+No shares of type Bonus
+=====================================
+;TOKYO [Bonus]:
+(ShareID=TOKM101022, Type=Bonus, Capacity=8, Owned=0, Remaining=8) || 
+=====================================
+;
+[Server]: DATE: 2025-03-03 05:39:04 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 05:39:04 PM | UDP Server started at port 8888
+[Server]: DATE: 2025-03-03 06:33:31 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 06:33:31 PM | UDP Server started at port 8001
+[Server]: DATE: 2025-03-03 06:34:05 PM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, capacity=10 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:34:05 PM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: share NYKM101022 added with capacity=10
+[Server]: DATE: 2025-03-03 06:34:17 PM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=TOKM101022, shareType=Bonus, capacity=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:34:17 PM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=TOKM101022, shareType=Bonus | ServerResponse: Failed: Cannot add share TOKM101022 from a different server. please contact the server admin
+[Server]: DATE: 2025-03-03 06:35:40 PM | ClientID: NYKB0003 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, shareCount=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:35:40 PM | ClientID: NYKB0003 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: NYKB0003 purchased 5 of share NYKM101022
+[Server]: DATE: 2025-03-03 06:35:43 PM | ClientID: NYKB0003 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:35:43 PM | ClientID: NYKB0003 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0003:
+Type [Bonus]:
+	NYKM101022	count: 5
+
+[Server]: DATE: 2025-03-03 06:35:55 PM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:35:55 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:35:55 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-03 06:35:55 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:35:55 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+ 
+;
+[Server]: DATE: 2025-03-03 06:35:55 PM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=5, Remaining=5] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+;TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+ 
+;
+[Server]: DATE: 2025-03-03 06:36:58 PM | ClientID: NYKB0003 | RequestType: RMI purchaseShare | RequestParameters: shareID=TOKM101022, shareType=Bonus, shareCount=4 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:36:58 PM | ClientID: NYKB0003 | RequestType: RMI purchaseShare | RequestParameters: shareID=TOKM101022, shareType=Bonus | ServerResponse: Failed: NYKB0003 can not buy more than 3 shares from other cities in total per week.
+[Server]: DATE: 2025-03-03 06:37:17 PM | ClientID: NYKB0003 | RequestType: RMI purchaseShare | RequestParameters: shareID=TOKM101022, shareType=Bonus, shareCount=3 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:37:17 PM | ClientID: NYKB0003 | RequestType: RMI purchaseShare | RequestParameters: shareID=TOKM101022, shareType=Bonus | ServerResponse: Failed: NYKB0003 exceeded your limit for buying from other cities.
+[Server]: DATE: 2025-03-03 06:37:22 PM | ClientID: NYKB0003 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:37:22 PM | ClientID: NYKB0003 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0003:
+Type [Bonus]:
+	NYKM101022	count: 5
+
+[Server]: DATE: 2025-03-03 06:38:11 PM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:38:11 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:38:11 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-03 06:38:11 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:38:11 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+ 
+;
+[Server]: DATE: 2025-03-03 06:38:11 PM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=5, Remaining=5] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+;TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+ 
+;
+[Server]: DATE: 2025-03-03 06:38:23 PM | ClientID: NYKB0003 | RequestType: RMI sellShare | RequestParameters: shareID=NYKM101022, shareCount=3 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:38:23 PM | ClientID: NYKB0003 | RequestType: RMI sellShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: NYKB0003 sold 3 of share NYKM101022
+[Server]: DATE: 2025-03-03 06:38:25 PM | ClientID: NYKB0003 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:38:25 PM | ClientID: NYKB0003 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0003:
+Type [Bonus]:
+	NYKM101022	count: 2
+
+[Server]: DATE: 2025-03-03 06:38:29 PM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:38:29 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:38:29 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-03 06:38:29 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:38:29 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+ 
+;
+[Server]: DATE: 2025-03-03 06:38:29 PM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=2, Remaining=8] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+;TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+ 
+;
+[Server]: DATE: 2025-03-03 06:43:21 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:43:21 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=2, Remaining=8] 
+ 
+;
+[Server]: DATE: 2025-03-03 06:44:30 PM | ClientID: TOKB0007 | RequestType: UDP purchaseShare | RequestParameters: shareType=Bonus, raw=NYKM101022-3 | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:44:30 PM | ClientID: TOKB0007 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, shareCount=3 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:44:30 PM | ClientID: TOKB0007 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: TOKB0007 purchased 3 of share NYKM101022
+[Server]: DATE: 2025-03-03 06:44:30 PM | ClientID: TOKB0007 | RequestType: UDP reply purchaseShare | RequestParameters: shareType=Bonus, raw=NYKM101022-3 | ServerResponse: Success: TOKB0007 purchased 3 of share NYKM101022;
+[Server]: DATE: 2025-03-03 06:47:40 PM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:47:40 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:47:40 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-03 06:47:40 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:47:40 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+ 
+;
+[Server]: DATE: 2025-03-03 06:47:40 PM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=5, Remaining=5] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+;TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+ 
+;
+[Server]: DATE: 2025-03-03 06:47:55 PM | ClientID: NYKB1234 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:47:55 PM | ClientID: NYKB1234 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: No shares found for buyer NYKB1234
+[Server]: DATE: 2025-03-03 06:48:10 PM | ClientID: NYKB1234 | RequestType: RMI purchaseShare | RequestParameters: shareID=TOKM101022, shareType=Bonus, shareCount=3 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:48:10 PM | ClientID: NYKB1234 | RequestType: UDP request: purchaseShare | RequestParameters: shareType=Bonus, extra=TOKM101022-3 | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:48:10 PM | ClientID: NYKB1234 | RequestType: UDP reply: purchaseShare | RequestParameters: shareType=Bonus, extra=TOKM101022-3 | ServerResponse: Success: NYKB1234 purchased 3 of share TOKM101022;
+[Server]: DATE: 2025-03-03 06:48:10 PM | ClientID: NYKB1234 | RequestType: RMI purchaseShare | RequestParameters: shareID=TOKM101022, shareType=Bonus | ServerResponse: Success: NYKB1234 purchased 3 of share TOKM101022;
+[Server]: DATE: 2025-03-03 06:48:20 PM | ClientID: NYKB1234 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:48:20 PM | ClientID: NYKB1234 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB1234:
+Type [Bonus]:
+	TOKM101022	count: 3
+
+[Server]: DATE: 2025-03-03 07:01:17 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 07:01:17 PM | UDP Server started at port 8001
+[Server]: DATE: 2025-03-03 07:01:58 PM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, capacity=10 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:01:58 PM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: share NYKM101022 added with capacity=10
+[Server]: DATE: 2025-03-03 07:02:21 PM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=NYKM010122, shareType=Equity, capacity=8 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:02:21 PM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=NYKM010122, shareType=Equity | ServerResponse: Success: share NYKM010122 added with capacity=8
+[Server]: DATE: 2025-03-03 07:03:01 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-03 07:03:01 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;
+[Server]: DATE: 2025-03-03 07:05:33 PM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:05:33 PM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: No shares found for buyer NYKB0001
+[Server]: DATE: 2025-03-03 07:06:07 PM | ClientID: NYKB0001 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, shareCount=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:06:07 PM | ClientID: NYKB0001 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: NYKB0001 purchased 5 of share NYKM101022
+[Server]: DATE: 2025-03-03 07:07:28 PM | ClientID: NYKB0001 | RequestType: RMI swapShare | RequestParameters: oldShareID=TOKM101022, oldShareType=Bonus, newShareID=NYKM101022, newShareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:07:28 PM | ClientID: NYKB0001 | RequestType: RMI swapShare | RequestParameters: shareID=TOKM101022, shareType=Bonus | ServerResponse: Failed: NYKB0001 does not own share TOKM101022
+[Server]: DATE: 2025-03-03 07:31:35 PM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:31:35 PM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0001:
+Type [Bonus]:
+	NYKM101022	count: 5
+
+[Server]: DATE: 2025-03-03 07:32:00 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-03 07:32:00 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=5, Remaining=5] 
+ 
+;
+[Server]: DATE: 2025-03-03 07:36:39 PM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:36:39 PM | ClientID: NYKB0001 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0001:
+Type [Bonus]:
+	NYKM101022	count: 5
+
+[Server]: DATE: 2025-03-03 07:37:27 PM | ClientID: NYKB0001 | RequestType: RMI swapShare | RequestParameters: oldShareID=TOKM101022, oldShareType=Bonus, newShareID=NYKM101022, newShareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:37:27 PM | ClientID: NYKB0001 | RequestType: RMI swapShare | RequestParameters: shareID=TOKM101022, shareType=Bonus | ServerResponse: Failed: NYKB0001 does not own share TOKM101022
+[Server]: DATE: 2025-03-03 07:43:46 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 07:43:46 PM | UDP Server started at port 8001
+[Server]: DATE: 2025-03-03 07:44:00 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:44:00 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 07:44:00 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-03 07:44:00 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 07:44:00 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-03 07:44:00 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: NEWYORK [Bonus]:
+No shares of type Bonus
+LONDON [Bonus]:
+No shares of type Bonus
+;TOKYO [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-03 07:44:12 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, capacity=10 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:44:12 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: share NYKM101022 added with capacity=10
+[Server]: DATE: 2025-03-03 07:44:31 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM010122, shareType=Equity, capacity=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:44:31 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM010122, shareType=Equity | ServerResponse: Success: share NYKM010122 added with capacity=5
+[Server]: DATE: 2025-03-03 07:45:04 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-03 07:45:04 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;
+[Server]: DATE: 2025-03-03 07:45:22 PM | ClientID: NYKB0004 | RequestType:   getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:45:22 PM | ClientID: NYKB0004 | RequestType:   getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: No shares found for buyer NYKB0004
+[Server]: DATE: 2025-03-03 07:46:00 PM | ClientID: NYKB0004 | RequestType:   purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, shareCount=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:46:00 PM | ClientID: NYKB0004 | RequestType:   purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: NYKB0004 purchased 5 of share NYKM101022
+[Server]: DATE: 2025-03-03 07:46:02 PM | ClientID: NYKB0004 | RequestType:   getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:46:02 PM | ClientID: NYKB0004 | RequestType:   getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0004:
+Type [Bonus]:
+	NYKM101022	count: 5
+
+[Server]: DATE: 2025-03-03 07:46:27 PM | ClientID: NYKB0004 | RequestType:  swapShare | RequestParameters: oldShareID=TOKM1234, oldShareType=Bonus, newShareID=NYKM101022, newShareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 07:46:27 PM | ClientID: NYKB0004 | RequestType:   swapShare | RequestParameters: shareID=TOKM1234, shareType=Bonus | ServerResponse: Failed: NYKB0004 does not own share TOKM1234
+[Server]: DATE: 2025-03-03 08:46:07 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 08:46:07 PM | UDP Server started at port 8001
+[Server]: DATE: 2025-03-03 08:46:46 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, capacity=10 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 08:46:46 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: share NYKM101022 added with capacity=10
+[Server]: DATE: 2025-03-03 08:47:48 PM | ClientID: NYKB0002 | RequestType:   purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, shareCount=3 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 08:47:48 PM | ClientID: NYKB0002 | RequestType:   purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: NYKB0002 purchased 3 of share NYKM101022
+[Server]: DATE: 2025-03-03 08:48:20 PM | ClientID: NYKB0002 | RequestType:  swapShare | RequestParameters: oldShareID=TOKM010122, oldShareType=Bonus, newShareID=NYKM101022, newShareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 08:48:20 PM | ClientID: NYKB0002 | RequestType:   swapShare | RequestParameters: shareID=TOKM010122, shareType=Bonus | ServerResponse: Failed: NYKB0002 does not own share TOKM010122
+[Server]: DATE: 2025-03-03 08:51:32 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 08:51:32 PM | UDP Server started at port 8001
+[Server]: DATE: 2025-03-03 08:51:51 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, capacity=10 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 08:51:51 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: share NYKM101022 added with capacity=10
+[Server]: DATE: 2025-03-03 08:52:49 PM | ClientID: NYKB0022 | RequestType:   purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, shareCount=3 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 08:52:49 PM | ClientID: NYKB0022 | RequestType:   purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: NYKB0022 purchased 3 of share NYKM101022
+[Server]: DATE: 2025-03-03 08:52:52 PM | ClientID: NYKB0022 | RequestType:   getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 08:52:52 PM | ClientID: NYKB0022 | RequestType:   getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0022:
+Type [Bonus]:
+	NYKM101022	count: 3
+
+[Server]: DATE: 2025-03-03 08:53:21 PM | ClientID: NYKB0022 | RequestType:  swapShare | RequestParameters: oldShareID=TOKM111122, oldShareType=Bonus, newShareID=NYKM101022, newShareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 08:53:21 PM | ClientID: NYKB0022 | RequestType:   swapShare | RequestParameters: shareID=TOKM111122, shareType=Bonus | ServerResponse: Failed: NYKB0022 does not own share TOKM111122
+[Server]: DATE: 2025-03-03 08:59:31 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 08:59:31 PM | UDP Server started at port 8001
+[Server]: DATE: 2025-03-03 08:59:45 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 08:59:45 PM | UDP Server started at port 8001
+[Server]: DATE: 2025-03-03 09:00:08 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, capacity=10 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:00:08 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: share NYKM101022 added with capacity=10
+[Server]: DATE: 2025-03-03 09:01:01 PM | ClientID: NYKB0002 | RequestType:   purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, shareCount=3 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:01:01 PM | ClientID: NYKB0002 | RequestType:   purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: NYKB0002 purchased 3 of share NYKM101022
+[Server]: DATE: 2025-03-03 09:01:20 PM | ClientID: NYKB0002 | RequestType:  swapShare | RequestParameters: oldShareID=NYKM101022, oldShareType=Bonus, newShareID=TOKM111122, newShareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:01:20 PM | ClientID: NYKB0002 | RequestType: UDP request: purchaseShare | RequestParameters: shareType=Bonus, extra=TOKM111122-3 | ServerResponse: ...
+[Server]: DATE: 2025-03-03 09:01:20 PM | ClientID: NYKB0002 | RequestType: UDP reply: purchaseShare | RequestParameters: shareType=Bonus, extra=TOKM111122-3 | ServerResponse: Success: NYKB0002 purchased 3 of share TOKM111122;
+[Server]: DATE: 2025-03-03 09:01:20 PM | ClientID: NYKB0002 | RequestType:   sellShare | RequestParameters: shareID=NYKM101022, shareCount=3 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:01:20 PM | ClientID: NYKB0002 | RequestType:   sellShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: NYKB0002 sold 3 of share NYKM101022
+[Server]: DATE: 2025-03-03 09:01:20 PM | ClientID: NYKB0002 | RequestType:   swapShare | RequestParameters: shareID=NYKM101022->TOKM111122, shareType=Bonus->Bonus | ServerResponse: Success: NYKB0002 swapped old share NYKM101022 with new share TOKM111122 for quantity=3
+[Server]: DATE: 2025-03-03 09:05:08 PM | Server is Up & Running
+[Server]: DATE: 2025-03-03 09:05:08 PM | UDP Server started at port 8001
+[Server]: DATE: 2025-03-03 09:05:27 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, capacity=11 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:05:27 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: share NYKM101022 added with capacity=11
+[Server]: DATE: 2025-03-03 09:06:11 PM | ClientID: NYKB0002 | RequestType:   purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, shareCount=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:06:11 PM | ClientID: NYKB0002 | RequestType:   purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: NYKB0002 purchased 5 of share NYKM101022
+[Server]: DATE: 2025-03-03 09:06:13 PM | ClientID: NYKB0002 | RequestType:   getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:06:13 PM | ClientID: NYKB0002 | RequestType:   getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0002:
+Type [Bonus]:
+	NYKM101022	count: 5
+
+[Server]: DATE: 2025-03-03 09:06:50 PM | ClientID: NYKB0002 | RequestType:  swapShare | RequestParameters: oldShareID=NYKM101022, oldShareType=Bonus, newShareID=TOKM111122, newShareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:06:50 PM | ClientID: NYKB0002 | RequestType: UDP request: purchaseShare | RequestParameters: shareType=Bonus, extra=TOKM111122-5 | ServerResponse: ...
+[Server]: DATE: 2025-03-03 09:06:50 PM | ClientID: NYKB0002 | RequestType: UDP reply: purchaseShare | RequestParameters: shareType=Bonus, extra=TOKM111122-5 | ServerResponse: Success: NYKB0002 purchased 5 of share TOKM111122;
+[Server]: DATE: 2025-03-03 09:06:50 PM | ClientID: NYKB0002 | RequestType:   sellShare | RequestParameters: shareID=NYKM101022, shareCount=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:06:50 PM | ClientID: NYKB0002 | RequestType:   sellShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: NYKB0002 sold 5 of share NYKM101022
+[Server]: DATE: 2025-03-03 09:06:50 PM | ClientID: NYKB0002 | RequestType:   swapShare | RequestParameters: shareID=NYKM101022->TOKM111122, shareType=Bonus->Bonus | ServerResponse: Success: NYKB0002 swapped old share NYKM101022 with new share TOKM111122 for quantity=5
+[Server]: DATE: 2025-03-03 09:06:57 PM | ClientID: NYKB0002 | RequestType:   getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:06:57 PM | ClientID: NYKB0002 | RequestType:   getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0002:
+Type [Bonus]:
+
+[Server]: DATE: 2025-03-03 09:07:12 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-03 09:07:12 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=11, Purchased=0, Remaining=11] 
+ 
+;
+[Server]: DATE: 2025-03-03 09:10:09 PM | ClientID: NYKB0002 | RequestType:   getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:10:09 PM | ClientID: NYKB0002 | RequestType:   getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0002:
+Type [Bonus]:
+
+[Server]: DATE: 2025-03-03 09:10:26 PM | ClientID: NYKB0002 | RequestType:   sellShare | RequestParameters: shareID=TOKM111122, shareCount=2 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:10:26 PM | ClientID: NYKB0002 | RequestType: UDP request: sellShare | RequestParameters: shareType=N/A, extra=TOKM111122-2 | ServerResponse: ...
+[Server]: DATE: 2025-03-03 09:10:26 PM | ClientID: NYKB0002 | RequestType: UDP reply: sellShare | RequestParameters: shareType=N/A, extra=TOKM111122-2 | ServerResponse: Success: NYKB0002 sold 2 of share TOKM111122;
+[Server]: DATE: 2025-03-03 09:10:26 PM | ClientID: NYKB0002 | RequestType:   sellShare | RequestParameters: shareID=TOKM111122, shareType=N/A | ServerResponse: Success: NYKB0002 sold 2 of share TOKM111122;
+[Server]: DATE: 2025-03-03 09:10:31 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-03 09:10:31 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=11, Purchased=0, Remaining=11] 
+ 
+;
+[Server]: DATE: 2025-03-03 09:10:36 PM | ClientID: NYKB0002 | RequestType:   getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 09:10:36 PM | ClientID: NYKB0002 | RequestType:   getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for NYKB0002:
+Type [Bonus]:
+

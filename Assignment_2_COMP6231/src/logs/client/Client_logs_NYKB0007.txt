@@ -1,0 +1,7 @@
+DATE: 2025-03-03 05:26:57 PM |  attempting to purchaseShare
+DATE: 2025-03-03 05:26:57 PM | Client Action:  purchaseShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus shareCount: 5  | Server Response: Success: NYKB0007 purchased 5 of share NYKM101022
+DATE: 2025-03-03 05:26:59 PM |  attempting to getShares
+DATE: 2025-03-03 05:26:59 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0007:
+Type [Bonus]:
+   NYKM101022  count: 5
+

@@ -1,0 +1,17 @@
+[Server]: DATE: 2025-02-12 11:09:53 PM | LONDON Server is Up & Running
+[Server]: DATE: 2025-02-12 11:09:53 PM | UDP Server Started at port 8002
+[Server]: DATE: 2025-02-16 10:34:02 AM | LONDON Server is Up & Running
+[Server]: DATE: 2025-02-16 10:34:02 AM | UDP Server Started at port 8002
+[Server]: DATE: 2025-02-16 10:45:12 AM | ClientID: Admin | RequestType: UDP request received: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:45:12 AM | ClientID: Admin | RequestType: UDP reply sent: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+
+[Server]: DATE: 2025-02-16 10:46:14 AM | ClientID: Admin | RequestType: UDP request received: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:46:14 AM | ClientID: Admin | RequestType: UDP reply sent: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+
+[Server]: DATE: 2025-02-16 10:46:54 AM | ClientID: Admin | RequestType: UDP request received: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:46:54 AM | ClientID: Admin | RequestType: UDP reply sent: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+
+[Server]: DATE: 2025-03-03 06:41:39 PM | LONDON Server is Up & Running

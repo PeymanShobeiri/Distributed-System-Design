@@ -1,0 +1,23 @@
+DATE: 2025-03-03 06:35:40 PM |  attempting to purchaseShare
+DATE: 2025-03-03 06:35:40 PM | Client Action:  purchaseShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus shareCount: 5  | Server Response: Success: NYKB0003 purchased 5 of share NYKM101022
+DATE: 2025-03-03 06:35:43 PM |  attempting to getShares
+DATE: 2025-03-03 06:35:43 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0003:
+Type [Bonus]:
+	NYKM101022	count: 5
+
+DATE: 2025-03-03 06:36:58 PM |  attempting to purchaseShare
+DATE: 2025-03-03 06:36:58 PM | Client Action:  purchaseShare | RequestParameters:  shareID: TOKM101022 shareType: Bonus shareCount: 4  | Server Response: Failed: NYKB0003 can not buy more than 3 shares from other cities in total per week.
+DATE: 2025-03-03 06:37:17 PM |  attempting to purchaseShare
+DATE: 2025-03-03 06:37:17 PM | Client Action:  purchaseShare | RequestParameters:  shareID: TOKM101022 shareType: Bonus shareCount: 3  | Server Response: Failed: NYKB0003 exceeded your limit for buying from other cities.
+DATE: 2025-03-03 06:37:22 PM |  attempting to getShares
+DATE: 2025-03-03 06:37:22 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0003:
+Type [Bonus]:
+	NYKM101022	count: 5
+
+DATE: 2025-03-03 06:38:23 PM |  attempting to sellShare
+DATE: 2025-03-03 06:38:23 PM | Client Action:  sellShare | RequestParameters:  shareID: NYKM101022 shareCount: 3  | Server Response: Success: NYKB0003 sold 3 of share NYKM101022
+DATE: 2025-03-03 06:38:25 PM |  attempting to getShares
+DATE: 2025-03-03 06:38:25 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0003:
+Type [Bonus]:
+	NYKM101022	count: 2
+

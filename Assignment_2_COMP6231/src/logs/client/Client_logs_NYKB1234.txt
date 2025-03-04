@@ -1,0 +1,9 @@
+DATE: 2025-03-03 06:47:55 PM |  attempting to getShares
+DATE: 2025-03-03 06:47:55 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: No shares found for buyer NYKB1234
+DATE: 2025-03-03 06:48:10 PM |  attempting to purchaseShare
+DATE: 2025-03-03 06:48:10 PM | Client Action:  purchaseShare | RequestParameters:  shareID: TOKM101022 shareType: Bonus shareCount: 3  | Server Response: Success: NYKB1234 purchased 3 of share TOKM101022;
+DATE: 2025-03-03 06:48:20 PM |  attempting to getShares
+DATE: 2025-03-03 06:48:20 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB1234:
+Type [Bonus]:
+	TOKM101022	count: 3
+

@@ -1,0 +1,18 @@
+DATE: 2025-02-16 10:45:32 AM |  login attempted
+DATE: 2025-02-16 10:45:32 AM |  Buyer Login successful
+DATE: 2025-02-16 10:45:37 AM |  attempting to getShares
+DATE: 2025-02-16 10:45:37 AM | Client Action:  getShares | RequestParameters:  null  | Server Response: No shares found for buyer NYKB0001
+DATE: 2025-02-16 10:45:59 AM |  attempting to purchaseShare
+DATE: 2025-02-16 10:45:59 AM | Client Action:  purchaseShare | RequestParameters:  shareID: NYKA121225 shareType: Bonus shareCount: 5  | Server Response: Success: NYKB0001 purchased 5 of share NYKA121225
+DATE: 2025-02-16 10:46:02 AM |  attempting to getShares
+DATE: 2025-02-16 10:46:02 AM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0001:
+Type [Bonus]:
+	NYKA121225	count: 5
+
+DATE: 2025-02-16 10:46:46 AM |  attempting to sellShare
+DATE: 2025-02-16 10:46:46 AM | Client Action:  sellShare | RequestParameters:  shareID: NYKA121225 shareCount: 4  | Server Response: Success: NYKB0001 sold 4 of share NYKA121225
+DATE: 2025-02-16 10:46:49 AM |  attempting to getShares
+DATE: 2025-02-16 10:46:49 AM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0001:
+Type [Bonus]:
+	NYKA121225	count: 1
+

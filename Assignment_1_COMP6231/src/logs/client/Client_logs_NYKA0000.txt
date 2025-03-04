@@ -1,0 +1,12 @@
+DATE: 2025-02-16 10:34:49 AM |  login attempted
+DATE: 2025-02-16 10:34:49 AM |  Admin Login successful
+DATE: 2025-02-16 10:35:02 AM |  attempting to addShare
+DATE: 2025-02-16 10:35:02 AM | Client Action:  addShare | RequestParameters:  shareID: NYKA121225 shareType: Bonus capacity: 10  | Server Response: Success: share NYKA121225 added with capacity=10
+DATE: 2025-02-16 10:35:27 AM |  attempting to addShare
+DATE: 2025-02-16 10:35:27 AM | Client Action:  addShare | RequestParameters:  shareID: NYKM111025 shareType: Dividend capacity: 8  | Server Response: Success: share NYKM111025 added with capacity=8
+DATE: 2025-02-16 10:35:30 AM |  admin attemped to Logout
+DATE: 2025-03-03 06:42:38 PM |  login attempted
+DATE: 2025-03-03 06:42:38 PM |  Admin Login successful
+DATE: 2025-03-03 06:42:58 PM |  attempting to addShare
+DATE: 2025-03-03 06:42:58 PM | Client Action:  addShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus capacity: 10  | Server Response: Success: share NYKM101022 added with capacity=10
+DATE: 2025-03-03 06:43:00 PM |  admin attemped to Logout

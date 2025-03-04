@@ -1,0 +1,8 @@
+DATE: 2025-03-03 08:52:49 PM |  attempting to purchaseShare
+DATE: 2025-03-03 08:52:49 PM | Client Action:  purchaseShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus shareCount: 3  | Server Response: Success: NYKB0022 purchased 3 of share NYKM101022
+DATE: 2025-03-03 08:52:52 PM |  attempting to getShares
+DATE: 2025-03-03 08:52:52 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB0022:
+Type [Bonus]:
+	NYKM101022	count: 3
+
+DATE: 2025-03-03 08:53:21 PM | Client Action: swapShare | RequestParameters: NYKM101022=>TOKM111122 | Server Response: Failed: NYKB0022 does not own share TOKM111122

@@ -1,0 +1,42 @@
+DATE: 2025-03-03 07:02:45 PM |  attempting to addShare
+DATE: 2025-03-03 07:02:45 PM | Client Action:  addShare | RequestParameters:  shareID: TOKM101022 shareType: Bonus capacity: 5  | Server Response: Success: share TOKM101022 added with capacity=5
+DATE: 2025-03-03 07:02:57 PM |  attempting to addShare
+DATE: 2025-03-03 07:02:57 PM | Client Action:  addShare | RequestParameters:  shareID: TOKM010122 shareType: Equity capacity: 3  | Server Response: Success: share TOKM010122 added with capacity=3
+DATE: 2025-03-03 07:03:01 PM |  attempting to listShareAvailability
+DATE: 2025-03-03 07:03:01 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
+DATE: 2025-03-03 07:32:00 PM |  attempting to listShareAvailability
+DATE: 2025-03-03 07:32:01 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=5, Remaining=5] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
+DATE: 2025-03-03 07:45:02 PM |  attempting to addShare
+DATE: 2025-03-03 07:45:02 PM | Client Action:  addShare | RequestParameters:  shareID: TOKM1234 shareType: Bonus capacity: 7  | Server Response: Success: share TOKM1234 added with capacity=7
+DATE: 2025-03-03 07:45:04 PM |  attempting to listShareAvailability
+DATE: 2025-03-03 07:45:04 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: TOKYO [Bonus]:
+[ShareID=TOKM1234, Type=Bonus, Capacity=7, Purchased=0, Remaining=7] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
+DATE: 2025-03-03 08:47:15 PM |  attempting to addShare
+DATE: 2025-03-03 08:47:15 PM | Client Action:  addShare | RequestParameters:  shareID: TOKM010122 shareType: Bonus capacity: 5  | Server Response: Success: share TOKM010122 added with capacity=5
+DATE: 2025-03-03 08:52:21 PM |  attempting to addShare
+DATE: 2025-03-03 08:52:21 PM | Client Action:  addShare | RequestParameters:  shareID: TOKM111122 shareType: Bonus capacity: 5  | Server Response: Success: share TOKM111122 added with capacity=5
+DATE: 2025-03-03 09:00:33 PM |  attempting to addShare
+DATE: 2025-03-03 09:00:33 PM | Client Action:  addShare | RequestParameters:  shareID: TOKM111122 shareType: Bonus capacity: 5  | Server Response: Success: share TOKM111122 added with capacity=5

@@ -1,0 +1,18 @@
+module ServerInterface
+
+{
+    interface ServerObjectInterface{
+        // admin
+        string addShare(in string shareID, in string shareType, in long capacity);
+        string removeShare(in string shareID, in string shareType);
+        string listShareAvailability(in string shareType);
+
+        // buyer
+        string purchaseShare(in string buyerID, in string shareID, in string shareType, in long shareCount);
+        string getShares(in string buyerID);
+        string sellShare(in string buyerID, in string shareID, in long shareCount);
+        string swapShare(in string buyerID, in string newShareID, in string newShareType, in string oldShareID, in string oldShareType);
+
+        oneway void shutdown();
+    };
+};

@@ -1,0 +1,9 @@
+DATE: 2025-03-03 08:46:46 PM |  attempting to addShare
+DATE: 2025-03-03 08:46:46 PM | Client Action:  addShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus capacity: 10  | Server Response: Success: share NYKM101022 added with capacity=10
+DATE: 2025-03-03 08:46:49 PM |  admin attemped to Logout
+DATE: 2025-03-03 08:51:51 PM |  attempting to addShare
+DATE: 2025-03-03 08:51:51 PM | Client Action:  addShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus capacity: 10  | Server Response: Success: share NYKM101022 added with capacity=10
+DATE: 2025-03-03 08:51:57 PM |  admin attemped to Logout
+DATE: 2025-03-03 09:00:08 PM |  attempting to addShare
+DATE: 2025-03-03 09:00:08 PM | Client Action:  addShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus capacity: 10  | Server Response: Success: share NYKM101022 added with capacity=10
+DATE: 2025-03-03 09:00:10 PM |  admin attemped to Logout

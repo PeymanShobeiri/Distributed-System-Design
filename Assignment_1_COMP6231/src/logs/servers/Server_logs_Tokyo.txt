@@ -1,0 +1,58 @@
+[Server]: DATE: 2025-02-12 11:09:53 PM | TOKYO Server is Up & Running
+[Server]: DATE: 2025-02-12 11:09:53 PM | UDP Server Started at port 8003
+[Server]: DATE: 2025-02-16 10:34:02 AM | TOKYO Server is Up & Running
+[Server]: DATE: 2025-02-16 10:34:02 AM | UDP Server Started at port 8003
+[Server]: DATE: 2025-02-16 10:36:01 AM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=TOKE200125, shareType=Bonus, capacity=12 | ServerResponse: request received
+[Server]: DATE: 2025-02-16 10:36:01 AM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=TOKE200125, shareType=Bonus | ServerResponse: Success: share TOKE200125 added with capacity=12
+[Server]: DATE: 2025-02-16 10:45:12 AM | ClientID: Admin | RequestType: UDP request received: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:45:12 AM | ClientID: Admin | RequestType: UDP reply sent: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+[Server]: DATE: 2025-02-16 10:46:14 AM | ClientID: Admin | RequestType: UDP request received: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:46:14 AM | ClientID: Admin | RequestType: UDP reply sent: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+[Server]: DATE: 2025-02-16 10:46:54 AM | ClientID: Admin | RequestType: UDP request received: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-02-16 10:46:54 AM | ClientID: Admin | RequestType: UDP reply sent: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKE200125, Type=Bonus, Capacity=12, Purchased=0, Remaining=12] 
+ 
+
+[Server]: DATE: 2025-03-03 06:41:39 PM | TOKYO Server is Up & Running
+[Server]: DATE: 2025-03-03 06:43:17 PM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=TOKM101022, shareType=Bonus, capacity=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:43:17 PM | ClientID: Admin | RequestType: RMI addShare | RequestParameters: shareID=TOKM101022, shareType=Bonus | ServerResponse: Success: share TOKM101022 added with capacity=5
+[Server]: DATE: 2025-03-03 06:43:21 PM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:43:21 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:43:21 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=2, Remaining=8] 
+ 
+;
+[Server]: DATE: 2025-03-03 06:43:21 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:43:21 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-03 06:43:21 PM | ClientID: Admin | RequestType: RMI listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKM101022, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=2, Remaining=8] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-03 06:43:56 PM | ClientID: TOKB0007 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:43:57 PM | ClientID: TOKB0007 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: No shares found for buyer TOKB0007
+[Server]: DATE: 2025-03-03 06:44:18 PM | ClientID: TOKB0007 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, shareCount=4 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:44:18 PM | ClientID: TOKB0007 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Failed: TOKB0007 can not buy more than 3 shares from other cities in total per week.
+[Server]: DATE: 2025-03-03 06:44:20 PM | ClientID: TOKB0007 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:44:20 PM | ClientID: TOKB0007 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: No shares found for buyer TOKB0007
+[Server]: DATE: 2025-03-03 06:44:30 PM | ClientID: TOKB0007 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus, shareCount=3 | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:44:30 PM | ClientID: TOKB0007 | RequestType: UDP request: purchaseShare | RequestParameters: shareType=Bonus, extra=NYKM101022-3 | ServerResponse: ...
+[Server]: DATE: 2025-03-03 06:44:30 PM | ClientID: TOKB0007 | RequestType: UDP reply: purchaseShare | RequestParameters: shareType=Bonus, extra=NYKM101022-3 | ServerResponse: Success: TOKB0007 purchased 3 of share NYKM101022;
+[Server]: DATE: 2025-03-03 06:44:30 PM | ClientID: TOKB0007 | RequestType: RMI purchaseShare | RequestParameters: shareID=NYKM101022, shareType=Bonus | ServerResponse: Success: TOKB0007 purchased 3 of share NYKM101022;
+[Server]: DATE: 2025-03-03 06:44:32 PM | ClientID: TOKB0007 | RequestType: RMI getShares | RequestParameters:  | ServerResponse: request received
+[Server]: DATE: 2025-03-03 06:44:32 PM | ClientID: TOKB0007 | RequestType: RMI getShares | RequestParameters: shareID=N/A, shareType=N/A | ServerResponse: Shares for TOKB0007:
+Type [Bonus]:
+	NYKM101022	count: 3
+

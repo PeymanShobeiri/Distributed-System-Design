@@ -1,0 +1,14 @@
+DATE: 2025-03-17 06:22:58 PM |  attempting to purchaseShare
+DATE: 2025-03-17 06:22:58 PM | Client Action:  purchaseShare | RequestParameters:  shareID: LONM111122 shareType: Bonus shareCount: 2  | Server Response: Success: NYKB1234 purchased 2 of share LONM111122;
+DATE: 2025-03-17 06:23:02 PM |  attempting to getShares
+DATE: 2025-03-17 06:23:02 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB1234:
+Type [Bonus]:
+	LONM111122	count: 2
+
+DATE: 2025-03-17 06:24:17 PM | Client Action: swapShare | RequestParameters: LONM111122=>NYKM121222 | Server Response: Success: NYKB1234 swapped old share LONM111122 with new share NYKM121222 for quantity=2
+DATE: 2025-03-17 06:24:25 PM |  attempting to getShares
+DATE: 2025-03-17 06:24:25 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for NYKB1234:
+Type [Bonus]:
+	NYKM121222	count: 2
+	LONM111122	count: 2
+

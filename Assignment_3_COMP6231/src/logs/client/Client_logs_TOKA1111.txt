@@ -1,0 +1,31 @@
+DATE: 2025-03-17 10:14:30 PM |  attempting to listShareAvailability
+DATE: 2025-03-17 10:14:30 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: TOKYO [Bonus]:
+No shares of type Bonus
+NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
+DATE: 2025-03-17 10:14:43 PM |  attempting to addShare
+DATE: 2025-03-17 10:14:43 PM | Client Action:  addShare | RequestParameters:  shareID: TOKM111122 shareType: Bonus capacity: 5  | Server Response: Success: share TOKM111122 added with capacity=5
+DATE: 2025-03-17 10:14:51 PM |  attempting to listShareAvailability
+DATE: 2025-03-17 10:14:51 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: TOKYO [Bonus]:
+[ShareID=TOKM111122, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
+DATE: 2025-03-17 10:15:52 PM |  attempting to listShareAvailability
+DATE: 2025-03-17 10:15:52 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: TOKYO [Bonus]:
+[ShareID=TOKM111122, Type=Bonus, Capacity=5, Purchased=5, Remaining=0] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;

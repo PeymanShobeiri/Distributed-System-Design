@@ -1,0 +1,38 @@
+DATE: 2025-03-17 05:24:22 PM |  attempting to addShare
+DATE: 2025-03-17 05:40:05 PM |  attempting to addShare
+DATE: 2025-03-17 05:40:05 PM | Client Action:  addShare | RequestParameters:  shareID: NYKM121222 shareType: Bonus capacity: 10  | Server Response: Success: share NYKM121222 added with capacity=10
+DATE: 2025-03-17 05:40:23 PM |  attempting to listShareAvailability
+DATE: 2025-03-17 05:40:23 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+
+LONDON [Bonus]:
+No shares of type Bonus
+;TOKYO [Bonus]:
+No shares of type Bonus
+;
+DATE: 2025-03-17 05:43:44 PM |  admin attemped to Logout
+DATE: 2025-03-17 06:13:48 PM |  attempting to addShare
+DATE: 2025-03-17 06:13:49 PM | Client Action:  addShare | RequestParameters:  shareID: NYKM121222 shareType: Bonus capacity: 10  | Server Response: Failed: share NYKM121222 already exists for shareType of Bonus
+DATE: 2025-03-17 06:14:01 PM |  attempting to listShareAvailability
+DATE: 2025-03-17 06:14:01 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=3, Remaining=7] 
+
+LONDON [Bonus]:
+[ShareID=LONM111122, Type=Bonus, Capacity=5, Purchased=1, Remaining=4] 
+ 
+;TOKYO [Bonus]:
+No shares of type Bonus
+;
+DATE: 2025-03-17 10:13:30 PM |  attempting to listShareAvailability
+DATE: 2025-03-17 10:13:30 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: NEWYORK [Bonus]:
+No shares of type Bonus
+LONDON [Bonus]:
+No shares of type Bonus
+;TOKYO [Bonus]:
+No shares of type Bonus
+;
+DATE: 2025-03-17 10:13:40 PM |  attempting to addShare
+DATE: 2025-03-17 10:13:40 PM | Client Action:  addShare | RequestParameters:  shareID: NYKM121222 shareType: Bonus capacity: 10  | Server Response: Success: share NYKM121222 added with capacity=10
+DATE: 2025-03-17 10:13:43 PM |  admin attemped to Logout
+DATE: 2025-03-23 05:33:29 PM |  attempting to addShare
+DATE: 2025-03-23 05:33:29 PM | Client Action:  addShare | RequestParameters:  shareID: NYKM101022 shareType: Bonus capacity: 10  | Server Response: Success: share NYKM101022 added with capacity=10

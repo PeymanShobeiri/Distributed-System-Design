@@ -1,0 +1,25 @@
+DATE: 2025-03-17 05:46:44 PM |  attempting to purchaseShare
+DATE: 2025-03-17 05:46:44 PM | Client Action:  purchaseShare | RequestParameters:  shareID: NYKM121222 shareType: Bonus shareCount: 3  | Server Response: Success: LONB1111 purchased 3 of share NYKM121222;
+DATE: 2025-03-17 05:46:46 PM |  attempting to getShares
+DATE: 2025-03-17 05:46:46 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for LONB1111:
+Type [Bonus]:
+	NYKM121222	count: 3
+
+DATE: 2025-03-17 05:46:57 PM |  attempting to purchaseShare
+DATE: 2025-03-17 05:46:57 PM | Client Action:  purchaseShare | RequestParameters:  shareID: LONM111122 shareType: Bonus shareCount: 3  | Server Response: Success: LONB1111 purchased 3 of share LONM111122
+DATE: 2025-03-17 05:47:01 PM |  attempting to getShares
+DATE: 2025-03-17 05:47:01 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for LONB1111:
+Type [Bonus]:
+	NYKM121222	count: 3
+	LONM111122	count: 3
+
+DATE: 2025-03-17 05:47:58 PM |  attempting to sellShare
+DATE: 2025-03-17 05:47:58 PM | Client Action:  sellShare | RequestParameters:  shareID: LONM111122 shareCount: 2  | Server Response: Success: LONB1111 sold 2 of share LONM111122
+DATE: 2025-03-17 05:47:59 PM |  attempting to getShares
+DATE: 2025-03-17 05:47:59 PM | Client Action:  getShares | RequestParameters:  null  | Server Response: Shares for LONB1111:
+Type [Bonus]:
+	NYKM121222	count: 3
+	LONM111122	count: 1
+
+DATE: 2025-03-17 05:48:22 PM | Client Action: swapShare | RequestParameters: LONM111122=>NYKM121222 | Server Response: Failed: cannot purchase new share NYKM121222 with quantity=1. Reason: Failed: LONB1111 already purchased this share type today.;
+DATE: 2025-03-17 05:59:21 PM | Client Action: swapShare | RequestParameters: NYKM121222=>LONM111122 | Server Response: Failed: cannot purchase new share LONM111122 with quantity=3. Reason: Failed: LONB1111 already purchased this share type today.

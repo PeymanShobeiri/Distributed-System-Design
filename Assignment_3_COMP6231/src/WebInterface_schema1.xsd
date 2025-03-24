@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="arg0" nillable="true" type="xs:string"/>
+
+  <xs:element name="arg1" nillable="true" type="xs:string"/>
+
+  <xs:element name="arg2" nillable="true" type="xs:anyType"/>
+
+  <xs:element name="arg3" nillable="true" type="xs:anyType"/>
+
+  <xs:element name="arg4" nillable="true" type="xs:string"/>
+
+  <xs:element name="return" nillable="true" type="xs:string"/>
+</xs:schema>
+

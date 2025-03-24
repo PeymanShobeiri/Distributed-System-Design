@@ -1,0 +1,34 @@
+DATE: 2025-03-17 05:44:06 PM |  attempting to addShare
+DATE: 2025-03-17 05:44:06 PM | Client Action:  addShare | RequestParameters:  shareID: TOKM111122 shareType: Bonus capacity: 12  | Server Response: Failed: Cannot add share TOKM111122 from a different server. please contact the server admin
+DATE: 2025-03-17 05:44:17 PM |  attempting to addShare
+DATE: 2025-03-17 05:44:17 PM | Client Action:  addShare | RequestParameters:  shareID: LONM111122 shareType: Bonus capacity: 5  | Server Response: Success: share LONM111122 added with capacity=5
+DATE: 2025-03-17 05:44:20 PM |  attempting to listShareAvailability
+DATE: 2025-03-17 05:44:20 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: LONDON [Bonus]:
+[ShareID=LONM111122, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;TOKYO [Bonus]:
+No shares of type Bonus
+;
+DATE: 2025-03-17 05:47:11 PM |  attempting to listShareAvailability
+DATE: 2025-03-17 05:47:11 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: LONDON [Bonus]:
+[ShareID=LONM111122, Type=Bonus, Capacity=5, Purchased=3, Remaining=2] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=3, Remaining=7] 
+ 
+;TOKYO [Bonus]:
+No shares of type Bonus
+;
+DATE: 2025-03-17 05:56:04 PM |  attempting to listShareAvailability
+DATE: 2025-03-17 05:56:04 PM | Client Action:  listShareAvailability | RequestParameters:  shareType: Bonus  | Server Response: LONDON [Bonus]:
+[ShareID=LONM111122, Type=Bonus, Capacity=5, Purchased=1, Remaining=4] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=3, Remaining=7] 
+ 
+;TOKYO [Bonus]:
+No shares of type Bonus
+;

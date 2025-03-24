@@ -1,0 +1,162 @@
+[Server]: DATE: 2025-03-17 05:03:33 PM |  Server Started...
+[Server]: DATE: 2025-03-17 05:03:34 PM |  Server is Up & Running
+[Server]: DATE: 2025-03-17 05:03:34 PM | Server Shutting down
+[Server]: DATE: 2025-03-17 05:03:34 PM | UDP Server started at port 8003
+[Server]: DATE: 2025-03-17 05:06:22 PM |  Server Started...
+[Server]: DATE: 2025-03-17 05:06:23 PM |  Server is Up & Running
+[Server]: DATE: 2025-03-17 05:06:23 PM | Server Shutting down
+[Server]: DATE: 2025-03-17 05:06:23 PM | UDP Server started at port 8003
+[Server]: DATE: 2025-03-17 05:09:39 PM |  Server Started...
+[Server]: DATE: 2025-03-17 05:09:39 PM |  Server is Up & Running
+[Server]: DATE: 2025-03-17 05:09:39 PM | Server Shutting down
+[Server]: DATE: 2025-03-17 05:09:39 PM | UDP Server started at port 8003
+[Server]: DATE: 2025-03-17 05:23:50 PM |  Server Started...
+[Server]: DATE: 2025-03-17 05:23:51 PM |  Server is Up & Running
+[Server]: DATE: 2025-03-17 05:23:51 PM | Server Shutting down
+[Server]: DATE: 2025-03-17 05:23:51 PM | UDP Server started at port 8003
+[Server]: DATE: 2025-03-17 05:39:40 PM |  Server Started...
+[Server]: DATE: 2025-03-17 05:39:40 PM |  Server is Up & Running
+[Server]: DATE: 2025-03-17 05:39:40 PM | Server Shutting down
+[Server]: DATE: 2025-03-17 05:39:40 PM | UDP Server started at port 8003
+[Server]: DATE: 2025-03-17 05:40:23 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-17 05:40:23 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: TOKYO [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 05:44:20 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-17 05:44:20 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: TOKYO [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 05:47:11 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-17 05:47:11 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: TOKYO [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 05:56:04 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-17 05:56:04 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: TOKYO [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 06:14:01 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-17 06:14:01 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: TOKYO [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 10:12:50 PM |  Server Started...
+[Server]: DATE: 2025-03-17 10:12:51 PM |  Server is Up & Running
+[Server]: DATE: 2025-03-17 10:12:51 PM | Server Shutting down
+[Server]: DATE: 2025-03-17 10:12:51 PM | UDP Server started at port 8003
+[Server]: DATE: 2025-03-17 10:13:30 PM | ClientID: Admin | RequestType: UDP listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: ...
+[Server]: DATE: 2025-03-17 10:13:30 PM | ClientID: Admin | RequestType: UDP reply listShareAvailability | RequestParameters: shareType=Bonus, raw=N/A | ServerResponse: TOKYO [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 10:14:30 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-17 10:14:30 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-17 10:14:30 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;
+[Server]: DATE: 2025-03-17 10:14:30 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-17 10:14:30 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 10:14:30 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: TOKYO [Bonus]:
+No shares of type Bonus
+NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 10:14:43 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=TOKM111122, shareType=Bonus, capacity=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-17 10:14:43 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=TOKM111122, shareType=Bonus | ServerResponse: Success: share TOKM111122 added with capacity=5
+[Server]: DATE: 2025-03-17 10:14:51 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-17 10:14:51 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-17 10:14:51 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;
+[Server]: DATE: 2025-03-17 10:14:51 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-17 10:14:51 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 10:14:51 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKM111122, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 10:15:41 PM | ClientID: NYKB1235 | RequestType: UDP purchaseShare | RequestParameters: shareType=Bonus, raw=TOKM111122-5 | ServerResponse: ...
+[Server]: DATE: 2025-03-17 10:15:41 PM | ClientID: NYKB1235 | RequestType:   purchaseShare | RequestParameters: shareID=TOKM111122, shareType=Bonus, shareCount=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-17 10:15:41 PM | ClientID: NYKB1235 | RequestType:   purchaseShare | RequestParameters: shareID=TOKM111122, shareType=Bonus | ServerResponse: Success: NYKB1235 purchased 5 of share TOKM111122
+[Server]: DATE: 2025-03-17 10:15:41 PM | ClientID: NYKB1235 | RequestType: UDP reply purchaseShare | RequestParameters: shareType=Bonus, raw=TOKM111122-5 | ServerResponse: Success: NYKB1235 purchased 5 of share TOKM111122;
+[Server]: DATE: 2025-03-17 10:15:52 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-17 10:15:52 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-17 10:15:52 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;
+[Server]: DATE: 2025-03-17 10:15:52 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-17 10:15:52 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-17 10:15:52 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKM111122, Type=Bonus, Capacity=5, Purchased=5, Remaining=0] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM121222, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-23 05:13:38 PM |  Server Started...
+[Server]: DATE: 2025-03-23 05:13:38 PM |  Server is Up & Running
+[Server]: DATE: 2025-03-23 05:13:38 PM | Server Shutting down
+[Server]: DATE: 2025-03-23 05:13:38 PM | UDP Server started at port 8003
+[Server]: DATE: 2025-03-23 05:14:43 PM |  Server Started...
+[Server]: DATE: 2025-03-23 05:14:43 PM |  Server is Up & Running
+[Server]: DATE: 2025-03-23 05:14:43 PM | Server Shutting down
+[Server]: DATE: 2025-03-23 05:14:43 PM | UDP Server started at port 8003
+[Server]: DATE: 2025-03-23 05:27:29 PM |  Server Started...
+[Server]: DATE: 2025-03-23 05:27:29 PM |  Server is Up & Running
+[Server]: DATE: 2025-03-23 05:27:29 PM | Server Shutting down
+[Server]: DATE: 2025-03-23 05:27:29 PM | UDP Server started at port 8003
+[Server]: DATE: 2025-03-23 05:33:52 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=TOKM111122, shareType=Bonus, capacity=5 | ServerResponse: request received
+[Server]: DATE: 2025-03-23 05:33:52 PM | ClientID: Admin | RequestType:   addShare | RequestParameters: shareID=TOKM111122, shareType=Bonus | ServerResponse: Success: share TOKM111122 added with capacity=5
+[Server]: DATE: 2025-03-23 05:33:57 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-23 05:33:57 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-23 05:33:57 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;
+[Server]: DATE: 2025-03-23 05:33:57 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-23 05:33:57 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-23 05:33:57 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKM111122, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=0, Remaining=10] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-23 05:34:33 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareType=Bonus | ServerResponse: request received
+[Server]: DATE: 2025-03-23 05:34:33 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-23 05:34:33 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=3, Remaining=7] 
+ 
+;
+[Server]: DATE: 2025-03-23 05:34:33 PM | ClientID: Admin | RequestType: UDP request: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: ...
+[Server]: DATE: 2025-03-23 05:34:33 PM | ClientID: Admin | RequestType: UDP reply: listShareAvailability | RequestParameters: shareType=Bonus, extra=N/A | ServerResponse: LONDON [Bonus]:
+No shares of type Bonus
+;
+[Server]: DATE: 2025-03-23 05:34:33 PM | ClientID: Admin | RequestType:   listShareAvailability | RequestParameters: shareID=N/A, shareType=Bonus | ServerResponse: TOKYO [Bonus]:
+[ShareID=TOKM111122, Type=Bonus, Capacity=5, Purchased=0, Remaining=5] 
+
+NEWYORK [Bonus]:
+[ShareID=NYKM101022, Type=Bonus, Capacity=10, Purchased=3, Remaining=7] 
+ 
+;LONDON [Bonus]:
+No shares of type Bonus
+;
